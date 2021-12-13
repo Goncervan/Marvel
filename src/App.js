@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home'
 import Series from './components/Series'
@@ -14,7 +14,7 @@ axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
       <Routes>
         <Route exact path='/' element={<Landing/>}/> 
@@ -24,7 +24,7 @@ function App() {
         <Route exact path='/comics' element={<Comics/>}/>
       </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

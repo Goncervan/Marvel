@@ -87,11 +87,11 @@ export default function Home() {
                                 onChange={(e) => handleInputName(e)}
                             />
                         </div>
-                        <button
-                            className={s.btn}
-                            onClick={(e) => handleSearchName(e)}>Search
-                        </button>
                     </div>
+                    <button
+                        className={s.btn}
+                        onClick={(e) => handleSearchName(e)}>Search
+                    </button>
                     <button className={s.btn} onClick={(e) => handleReload(e)}>Reload Characters</button>
                 </nav>
                 <div className={s.containerCh}>

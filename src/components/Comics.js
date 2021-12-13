@@ -82,11 +82,11 @@ export default function Comics() {
                                 onChange={(e) => handleInputComic(e)}
                             />
                         </div>
+                    </div>
                         <button
                             className={s.btn}
                             onClick={(e) => handleSearchComic(e)}>Search
                         </button>
-                    </div>
                     <button className={s.btn} onClick={(e) => handleReload(e)}>Reload Comics</button>
                 </nav>
                 <div className={s.containerSeries}>

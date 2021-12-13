@@ -85,11 +85,11 @@ export default function Series() {
                                 onChange={(e) => handleInputSerie(e)}
                             />
                         </div>
-                        <button
-                            className={s.btn}
-                            onClick={(e) => handleSearchSerie(e)}>Search
-                        </button>
                     </div>
+                    <button
+                        className={s.btn}
+                        onClick={(e) => handleSearchSerie(e)}>Search
+                    </button>
                     <button className={s.btn} onClick={(e) => handleReload(e)}>Reload Series</button>
                 </nav>
                 <div className={s.containerSeries}>
