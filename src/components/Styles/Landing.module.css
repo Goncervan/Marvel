@@ -99,4 +99,18 @@
     .containerBtn{
         flex-direction: column;
     }
+    .divTitle{
+        width: 80%;
+    }
+}
+
+@media (max-width: 991.98px){
+    .divTitle{
+        width: 50%;
+    }
+    .h1{
+        padding: 0;
+        padding-top: 5px;
+        font-size: 44px;
+    }
 }

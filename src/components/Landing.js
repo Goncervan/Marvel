@@ -5,7 +5,6 @@ import s from './Styles/Landing.module.css'
 export default function Landing() {
     return (
         <div className={s.container}>
-            <img className={s.img} src="" alt="Marvel logo" />
             <div className={s.cont}>
                 <div className={s.divTitle}>
                     <h1 className={s.h1}>MARVEL</h1>
